@@ -22,5 +22,10 @@ class ViewController: UIViewController
     }
 
 
+    @IBAction func ToWork(sender: UIButton)
+    {
+        performSegueWithIdentifier("toWork", sender: sender)
+    }
+
 }
 

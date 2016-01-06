@@ -21,5 +21,9 @@ class GymViewController : UIViewController
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func ToHome(sender: UIButton)
+    {
+        performSegueWithIdentifier("toHome", sender: sender)
+    }
     
 }

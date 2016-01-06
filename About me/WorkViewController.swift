@@ -21,5 +21,9 @@ class WorkViewController : UIViewController
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func changeToSkate(sender: UIButton)
+    {
+        performSegueWithIdentifier("toSkating", sender: sender)
+    }
     
 }

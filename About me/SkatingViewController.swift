@@ -22,4 +22,8 @@ class SkatingViewController : UIViewController
     }
 
     
+    @IBAction func ToGym(sender: UIButton)
+    {
+        performSegueWithIdentifier("toGym", sender: sender)
+    }
 }
