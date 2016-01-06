@@ -49,12 +49,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8cB-pF-fvZ">
-                                <rect key="frame" x="184" y="353" width="46" height="30"/>
+                                <rect key="frame" x="184" y="545" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="changeToSkate:" destination="E77-ie-oAn" eventType="touchUpInside" id="2Kc-3U-Lxk"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="G8J-wh-hcM">
+                                <rect key="frame" x="104" y="338" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Funny Story every time we have made this app I have had to change my place of work because I get a new better job each time, and now I am doing I.T. for a company called basic resarch</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.80000001192092896" green="0.40000000596046448" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -80,14 +87,22 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8TJ-Jn-N84">
-                                <rect key="frame" x="200" y="372" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="141" y="406" width="132" height="164"/>
+                                <state key="normal" title="To work!"/>
                                 <connections>
                                     <action selector="ToWork:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bil-15-Uc2"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="fill" text="WELCOME TO MY ABOUT ME APP!!" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="D02-0g-yuw">
+                                <rect key="frame" x="80" y="78" width="254" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hacker" translatesAutoresizingMaskIntoConstraints="NO" id="rhX-8R-QeR">
+                                <rect key="frame" x="94" y="198" width="240" height="200"/>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.80000001192092896" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.90196079015731812" green="0.90196079015731812" blue="0.90196079015731812" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
@@ -130,4 +145,7 @@
             <point key="canvasLocation" x="503" y="863"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="hacker" width="746" height="643"/>
+    </resources>
 </document>
