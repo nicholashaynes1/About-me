@@ -12,6 +12,9 @@
 		AD232C051C3D99EB00264B55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD232C031C3D99EB00264B55 /* Main.storyboard */; };
 		AD232C071C3D99EB00264B55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD232C061C3D99EB00264B55 /* Assets.xcassets */; };
 		AD232C0A1C3D99EB00264B55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD232C081C3D99EB00264B55 /* LaunchScreen.storyboard */; };
+		AD232C161C3D9F2800264B55 /* GymViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD232C151C3D9F2800264B55 /* GymViewController.swift */; };
+		AD232C181C3D9F6200264B55 /* WorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD232C171C3D9F6200264B55 /* WorkViewController.swift */; };
+		AD232C1A1C3D9F9200264B55 /* SkatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD232C191C3D9F9200264B55 /* SkatingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		AD232C061C3D99EB00264B55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD232C091C3D99EB00264B55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD232C0B1C3D99EB00264B55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD232C151C3D9F2800264B55 /* GymViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GymViewController.swift; sourceTree = "<group>"; };
+		AD232C171C3D9F6200264B55 /* WorkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkViewController.swift; sourceTree = "<group>"; };
+		AD232C191C3D9F9200264B55 /* SkatingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkatingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,9 @@
 			children = (
 				AD232C011C3D99EB00264B55 /* ViewController.swift */,
 				AD232BFF1C3D99EB00264B55 /* AppDelegate.swift */,
+				AD232C151C3D9F2800264B55 /* GymViewController.swift */,
+				AD232C171C3D9F6200264B55 /* WorkViewController.swift */,
+				AD232C191C3D9F9200264B55 /* SkatingViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -152,6 +161,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD232C021C3D99EB00264B55 /* ViewController.swift in Sources */,
+				AD232C181C3D9F6200264B55 /* WorkViewController.swift in Sources */,
+				AD232C1A1C3D9F9200264B55 /* SkatingViewController.swift in Sources */,
+				AD232C161C3D9F2800264B55 /* GymViewController.swift in Sources */,
 				AD232C001C3D99EB00264B55 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

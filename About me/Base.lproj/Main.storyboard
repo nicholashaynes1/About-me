@@ -8,7 +8,7 @@
         <!--Gym-->
         <scene sceneID="gzx-Uu-bkM">
             <objects>
-                <viewController title="Gym" id="SDI-Vl-gyM" sceneMemberID="viewController">
+                <viewController title="Gym" id="SDI-Vl-gyM" customClass="GymViewController" customModule="About_me" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cUd-mS-RLE"/>
                         <viewControllerLayoutGuide type="bottom" id="kzV-FC-PG0"/>
@@ -30,10 +30,10 @@
             </objects>
             <point key="canvasLocation" x="-73" y="863"/>
         </scene>
-        <!--Fam-->
+        <!--work-->
         <scene sceneID="cAX-ws-FPW">
             <objects>
-                <viewController title="Fam" id="E77-ie-oAn" sceneMemberID="viewController">
+                <viewController title="work" id="E77-ie-oAn" customClass="WorkViewController" customModule="About_me" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="CFA-5X-YWX"/>
                         <viewControllerLayoutGuide type="bottom" id="75t-Y3-PtC"/>
@@ -47,7 +47,7 @@
                                 <state key="normal" title="Button"/>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.80000001192092896" green="0.40000000596046448" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>
@@ -72,7 +72,7 @@
                                 <state key="normal" title="Button"/>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="0.80000001192092896" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>
@@ -80,10 +80,10 @@
             </objects>
             <point key="canvasLocation" x="-73" y="13"/>
         </scene>
-        <!--View Controller-->
+        <!--Skate-->
         <scene sceneID="PJS-Cf-5CE">
             <objects>
-                <viewController id="N8c-5d-BaV" sceneMemberID="viewController">
+                <viewController title="Skate" id="N8c-5d-BaV" customClass="SkatingViewController" customModule="About_me" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2x4-r0-oST"/>
                         <viewControllerLayoutGuide type="bottom" id="eht-7u-PLc"/>
