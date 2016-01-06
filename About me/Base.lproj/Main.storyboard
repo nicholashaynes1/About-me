@@ -25,10 +25,15 @@
                         <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="popoverPresentation" identifier="ToHome" id="eId-go-BrW">
+                            <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                        </segue>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VyE-QD-C97" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-73" y="863"/>
+            <point key="canvasLocation" x="-111" y="863"/>
         </scene>
         <!--work-->
         <scene sceneID="cAX-ws-FPW">
@@ -50,10 +55,13 @@
                         <color key="backgroundColor" red="0.80000001192092896" green="0.40000000596046448" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <segue destination="N8c-5d-BaV" kind="presentation" identifier="To skating" id="1jQ-rf-09V"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FmM-jy-VLs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="499" y="13"/>
+            <point key="canvasLocation" x="503" y="-71"/>
         </scene>
         <!--About Me!-->
         <scene sceneID="tne-QT-ifu">
@@ -70,6 +78,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eKh-IM-8XJ">
                                 <rect key="frame" x="134" y="326" width="146" height="84"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="E77-ie-oAn" kind="presentation" identifier="To work" id="JFT-ST-wDl"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.80000001192092896" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
@@ -78,7 +89,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-73" y="13"/>
+            <point key="canvasLocation" x="-111" y="-71"/>
         </scene>
         <!--Skate-->
         <scene sceneID="PJS-Cf-5CE">
@@ -100,10 +111,13 @@
                         <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <segue destination="SDI-Vl-gyM" kind="presentation" identifier="ToGym" id="WeJ-2p-ia2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DAG-Bd-Qkc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="491" y="863"/>
+            <point key="canvasLocation" x="503" y="863"/>
         </scene>
     </scenes>
 </document>
