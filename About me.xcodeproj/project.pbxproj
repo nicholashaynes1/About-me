@@ -54,14 +54,30 @@
 		AD232BFE1C3D99EB00264B55 /* About me */ = {
 			isa = PBXGroup;
 			children = (
-				AD232BFF1C3D99EB00264B55 /* AppDelegate.swift */,
-				AD232C011C3D99EB00264B55 /* ViewController.swift */,
-				AD232C031C3D99EB00264B55 /* Main.storyboard */,
-				AD232C061C3D99EB00264B55 /* Assets.xcassets */,
+				AD232C121C3D9B5F00264B55 /* View */,
+				AD232C111C3D9B4300264B55 /* Controller */,
 				AD232C081C3D99EB00264B55 /* LaunchScreen.storyboard */,
 				AD232C0B1C3D99EB00264B55 /* Info.plist */,
 			);
 			path = "About me";
+			sourceTree = "<group>";
+		};
+		AD232C111C3D9B4300264B55 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AD232C011C3D99EB00264B55 /* ViewController.swift */,
+				AD232BFF1C3D99EB00264B55 /* AppDelegate.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		AD232C121C3D9B5F00264B55 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AD232C061C3D99EB00264B55 /* Assets.xcassets */,
+				AD232C031C3D99EB00264B55 /* Main.storyboard */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
