@@ -28,7 +28,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="science" translatesAutoresizingMaskIntoConstraints="NO" id="FrA-mZ-ybC">
                                 <rect key="frame" x="78" y="77" width="259" height="232"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dVv-Mk-sdb">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dVv-Mk-sdb">
                                 <rect key="frame" x="74" y="353" width="266" height="208"/>
                                 <color key="backgroundColor" red="1" green="0.80000001192092896" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
                                 <string key="text">I LOVE SCIENCE!!! I am planning in having a double science major, programming and biology, while genetics is my favorite I love physics and chemistry, I enjoy math and programming and those are what I plan on pursuing a career in, but all science is dope(except geology).</string>
@@ -66,7 +66,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gym" translatesAutoresizingMaskIntoConstraints="NO" id="xyK-kY-TIA">
                                 <rect key="frame" x="70" y="28" width="282" height="212"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CCw-ab-3eH">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CCw-ab-3eH">
                                 <rect key="frame" x="91" y="346" width="240" height="128"/>
                                 <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <string key="text">In case you weren't aware i go to the gym and enjoy it. It is basically my therapy it helps keep me feeling good and who doesn't like to look good for the lady, just getting yoked.</string>
@@ -94,7 +94,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="G8J-wh-hcM">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G8J-wh-hcM">
                                 <rect key="frame" x="104" y="338" width="240" height="171"/>
                                 <color key="backgroundColor" red="0.80000001192092896" green="0.40000000596046448" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <string key="text">Funny Story every time we have made this app I have had to change my place of work because I get a new better job each time, and now I am doing I.T. for a company called basic resarch, and it is manufacturing workout suplemements </string>
@@ -184,7 +184,7 @@
                                     <action selector="ToGym:" destination="N8c-5d-BaV" eventType="touchUpInside" id="c9N-HM-1Jd"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vbS-aF-3KU">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vbS-aF-3KU">
                                 <rect key="frame" x="87" y="402" width="271" height="188"/>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <string key="text">Skating is pretty dope and I do enjoy street skating in the summer, but sadly it is winter so i can't be doing my ollies and my kickflips.</string>
