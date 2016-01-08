@@ -15,6 +15,7 @@
 		AD232C161C3D9F2800264B55 /* GymViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD232C151C3D9F2800264B55 /* GymViewController.swift */; };
 		AD232C181C3D9F6200264B55 /* WorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD232C171C3D9F6200264B55 /* WorkViewController.swift */; };
 		AD232C1A1C3D9F9200264B55 /* SkatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD232C191C3D9F9200264B55 /* SkatingViewController.swift */; };
+		ADECED911C403ED700318823 /* ScienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADECED901C403ED700318823 /* ScienceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		AD232C151C3D9F2800264B55 /* GymViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GymViewController.swift; sourceTree = "<group>"; };
 		AD232C171C3D9F6200264B55 /* WorkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkViewController.swift; sourceTree = "<group>"; };
 		AD232C191C3D9F9200264B55 /* SkatingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkatingViewController.swift; sourceTree = "<group>"; };
+		ADECED901C403ED700318823 /* ScienceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScienceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				AD232C151C3D9F2800264B55 /* GymViewController.swift */,
 				AD232C171C3D9F6200264B55 /* WorkViewController.swift */,
 				AD232C191C3D9F9200264B55 /* SkatingViewController.swift */,
+				ADECED901C403ED700318823 /* ScienceViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD232C021C3D99EB00264B55 /* ViewController.swift in Sources */,
+				ADECED911C403ED700318823 /* ScienceViewController.swift in Sources */,
 				AD232C181C3D9F6200264B55 /* WorkViewController.swift in Sources */,
 				AD232C1A1C3D9F9200264B55 /* SkatingViewController.swift in Sources */,
 				AD232C161C3D9F2800264B55 /* GymViewController.swift in Sources */,
@@ -314,6 +318,7 @@
 				AD232C101C3D99EB00264B55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

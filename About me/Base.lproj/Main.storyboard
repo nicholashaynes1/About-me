@@ -5,6 +5,45 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
+        <!--Science-->
+        <scene sceneID="ftt-Yt-7XW">
+            <objects>
+                <viewController title="Science" id="tfd-or-zkq" customClass="ScienceViewController" customModule="About_me" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RIn-hF-OEf"/>
+                        <viewControllerLayoutGuide type="bottom" id="SMI-3E-8ee"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="H7c-46-6bh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Gu-Za-fBf">
+                                <rect key="frame" x="176" y="606" width="62" height="30"/>
+                                <state key="normal" title="To Home"/>
+                                <connections>
+                                    <action selector="toHome:" destination="tfd-or-zkq" eventType="touchUpInside" id="0KE-Ry-2og"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" identifier="toHome" id="isn-h7-LWQ"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="science" translatesAutoresizingMaskIntoConstraints="NO" id="FrA-mZ-ybC">
+                                <rect key="frame" x="78" y="77" width="259" height="232"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dVv-Mk-sdb">
+                                <rect key="frame" x="74" y="353" width="266" height="208"/>
+                                <color key="backgroundColor" red="1" green="0.80000001192092896" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">I LOVE SCIENCE!!! I am planning in having a double science major, programming and biology, while genetics is my favorite I love physics and chemistry, I enjoy math and programming and those are what I plan on pursuing a career in, but all science is dope(except geology).</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.80000001192092896" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t65-Ic-oBJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-681" y="644"/>
+        </scene>
         <!--Gym-->
         <scene sceneID="gzx-Uu-bkM">
             <objects>
@@ -18,19 +57,26 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tAz-Ts-Y2g">
-                                <rect key="frame" x="184" y="353" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="170" y="603" width="76" height="30"/>
+                                <state key="normal" title="To Science"/>
                                 <connections>
-                                    <action selector="ToHome:" destination="SDI-Vl-gyM" eventType="touchUpInside" id="Q2k-UV-X6H"/>
+                                    <segue destination="tfd-or-zkq" kind="presentation" identifier="toScience" id="PKb-uV-d6l"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gym" translatesAutoresizingMaskIntoConstraints="NO" id="xyK-kY-TIA">
+                                <rect key="frame" x="70" y="28" width="282" height="212"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CCw-ab-3eH">
+                                <rect key="frame" x="91" y="346" width="240" height="128"/>
+                                <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">In case you weren't aware i go to the gym and enjoy it. It is basically my therapy it helps keep me feeling good and who doesn't like to look good for the lady, just getting yoked.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
-                    <connections>
-                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="toHome" id="eId-go-BrW"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VyE-QD-C97" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -48,20 +94,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="G8J-wh-hcM">
+                                <rect key="frame" x="104" y="338" width="240" height="171"/>
+                                <color key="backgroundColor" red="0.80000001192092896" green="0.40000000596046448" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">Funny Story every time we have made this app I have had to change my place of work because I get a new better job each time, and now I am doing I.T. for a company called basic resarch, and it is manufacturing workout suplemements </string>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="workout" translatesAutoresizingMaskIntoConstraints="NO" id="Zsa-4y-eVI">
+                                <rect key="frame" x="87" y="50" width="240" height="178"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8cB-pF-fvZ">
-                                <rect key="frame" x="184" y="545" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="146" y="548" width="122" height="30"/>
+                                <state key="normal" title="To Skate!"/>
                                 <connections>
                                     <action selector="changeToSkate:" destination="E77-ie-oAn" eventType="touchUpInside" id="2Kc-3U-Lxk"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="G8J-wh-hcM">
-                                <rect key="frame" x="104" y="338" width="240" height="128"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Funny Story every time we have made this app I have had to change my place of work because I get a new better job each time, and now I am doing I.T. for a company called basic resarch</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.80000001192092896" green="0.40000000596046448" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -90,11 +140,13 @@
                                 <rect key="frame" x="141" y="406" width="132" height="164"/>
                                 <state key="normal" title="To work!"/>
                                 <connections>
-                                    <action selector="ToWork:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bil-15-Uc2"/>
+                                    <action selector="toWork:" destination="BYZ-38-t0r" eventType="touchUpInside" id="703-rY-ZF8"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="fill" text="WELCOME TO MY ABOUT ME APP!!" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="D02-0g-yuw">
                                 <rect key="frame" x="80" y="78" width="254" height="30"/>
+                                <color key="backgroundColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -126,12 +178,22 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wl0-0v-fhK">
-                                <rect key="frame" x="184" y="353" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="166" y="614" width="82" height="30"/>
+                                <state key="normal" title="To the gym!"/>
                                 <connections>
                                     <action selector="ToGym:" destination="N8c-5d-BaV" eventType="touchUpInside" id="c9N-HM-1Jd"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vbS-aF-3KU">
+                                <rect key="frame" x="87" y="402" width="271" height="188"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">Skating is pretty dope and I do enjoy street skating in the summer, but sadly it is winter so i can't be doing my ollies and my kickflips.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Skater" translatesAutoresizingMaskIntoConstraints="NO" id="vPn-D0-qMa">
+                                <rect key="frame" x="55" y="116" width="272" height="193"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -146,6 +208,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Skater" width="613" height="463"/>
+        <image name="gym" width="629" height="408"/>
         <image name="hacker" width="746" height="643"/>
+        <image name="science" width="590" height="434"/>
+        <image name="workout" width="341" height="148"/>
     </resources>
 </document>
